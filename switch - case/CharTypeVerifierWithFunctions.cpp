@@ -1,6 +1,6 @@
 //Preprocesor directive for basic input output manipulation
 #include <iostream>
-//Preprocesor directive for string manipulation
+//Preprocesor directive for char manipulation
 #include <cctype>
 //This includes functions as cin, cout for write/read functions
 using namespace std;
