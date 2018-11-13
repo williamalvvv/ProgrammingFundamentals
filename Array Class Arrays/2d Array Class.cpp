@@ -7,32 +7,14 @@ using namespace std;
 void hola();
 
 int main(){
-	//int vector[2][2]={{1,2},{3,4}};
-	/*
-	int score[4][5]=	{
-	{1 ,2 ,3 ,4 ,5},
-	{6 ,7 ,8 ,9 ,10},
-	{11,12,13,14,15},
-	{16,17,18,19,20}
-						};
-	*/
-	array <array<int, 5>, 4> matriz = {
+	array <array<int, 5>, 4> matriz = 
+	{
 	1 ,2 ,3 ,4 ,5,
 	6 ,7 ,8 ,9 ,10,
 	11,12,13,14,15,
 	16,17,18,19,20
-						};
+	};
 	
-	/*
-	for(int i=0;i<4;i++)
-	{ 
-		for(int j=0;j<5;j++)
-		{
-			cout<<"\tmatriz["<<i<<"]["<<j<<"]<<\t|:";
-			cin>>matriz[i][j];
-		}
-	}
-	*/
 	for(int i=0;i<4;i++)
 	{ 
 		for(int j=0;j<80;j++)
@@ -43,8 +25,7 @@ int main(){
 		cout<<"|";
 		for(int j=0;j<5;j++)
 		{
-			//cout<<"\t"<<matriz[i][j]<<"\t|";
-		cout<<"\t"<<matriz[i].at(j)<<"\t|";
+			cout<<"\t"<<matriz[i].at(j)<<"\t|";
 		}
 		cout<<"\n";
 	}
@@ -54,6 +35,3 @@ int main(){
 		}
 }
 
-void hola(){
-	cout<<"hola"<<endl;
-}
