@@ -16,6 +16,7 @@ int main(){
 	int option;
 	int id;
 	char confirmation;
+	int idToReinsert;
 	string driverName;
 	string plateNumber;
 	cout<<"Taxi queue system\t\n";
@@ -27,12 +28,13 @@ int main(){
 	vector<string> nAplates;
 	do{
 		system("cls");
-		cout<<"Main menu options:"<<endl;
-		cout<<"1. Add New Taxi to standby queue"<<endl;
-		cout<<"2. Check for actual data"<<endl;
-		cout<<"3. Sent Taxi to a Client"<<endl;
-		cout<<"4. Check for taxis in routes"<<endl;
-		cout<<"5. Exit from program"<<endl;
+		cout<<"Main menu options:\n\n"<<endl;
+		cout<<"\t\t1. Add New Taxi to standby queue"<<endl;
+		cout<<"\t\t2. Check for actual data"<<endl;
+		cout<<"\t\t3. Sent Taxi to a Client"<<endl;
+		cout<<"\t\t4. Check for taxis in routes"<<endl;
+		cout<<"\t\t5. Reinsert a taxi to avaialable queue"<<endl;
+		cout<<"\t\t6. Exit program"<<endl<<endl;
 		cout<<"Please, input your option: ";
 		cin>>option;
 		switch(option){
@@ -80,9 +82,23 @@ int main(){
 				printTable(nAtaxis, nAdrivers, nAplates);
 			break;
 			case 5:
+				cout<<"Which taxi would you like to reinsert? "<<endl;
+				printTable(nAtaxis, nAdrivers, nAplates);
+				cout<<"\nPlease, input order below: ";
+				cin>>idToReinsert;
+				taxis.push_back(nAtaxis.at(idToReinsert));
+				drivers.push_back(nAdrivers.at(idToReinsert));
+				plates.push_back(nAplates.at(idToReinsert));
+				nAtaxis.erase(nAtaxis.begin()+idToReinsert);
+				nAdrivers.erase(drivers.begin()+idToReinsert);
+				nAplates.erase(plates.begin()+idToReinsert);
+				cout<<"Taxi has been already inserted to avialable queue"<<endl;
+			break;
+			case 6:
 				cout<<"Program has ended...";
 				system("pause");
 				system("exit");
+			break;
 			default:
 				cout<<"Non correct option has been chosen."<<endl;
 			break;

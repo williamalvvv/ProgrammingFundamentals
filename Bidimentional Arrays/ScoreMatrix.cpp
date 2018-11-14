@@ -1,11 +1,8 @@
 #include<iostream>
-#include<array>
-#include<vector>
 
 using namespace std;
 
 int main(){
-	//int vector[2][2]={{1,2},{3,4}};
 	int score[4][5]=	{
 	{1 ,2 ,3 ,4 ,5},
 	{6 ,7 ,8 ,9 ,10},
