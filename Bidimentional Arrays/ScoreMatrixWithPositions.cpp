@@ -12,7 +12,7 @@ int main(){
 
 	for(int i=0;i<4;i++)
 	{ 
-		for(int j=0;j<80;j++)
+		for(int j=0;j<97;j++)
 		{
 			cout<<"-";
 		}
@@ -20,8 +20,19 @@ int main(){
 		cout<<"|";
 		for(int j=0;j<5;j++)
 		{
-			if (j==0)
+			if (i==0 && j==0)
 			{
+				cout<<"Row / Col \t|";
+				for(int k=0;k<5;k++)
+					cout<<"\t Col "<<k<<"\t|";
+				cout<<"\n";
+				for(int j=0;j<97;j++)
+						cout<<"-";
+				cout<<"\n|";
+			}
+			if(j==0)
+			{
+				cout<<"\tRow "<<i<<" \t|";
 				cout<<"\t"<<score[i][j]<<"\t|";
 			}
 			else
@@ -29,7 +40,7 @@ int main(){
 		}
 		cout<<"\n";
 	}
-		for(int j=0;j<80;j++)
+		for(int j=0;j<97;j++)
 		{
 			cout<<"-";
 		}
