@@ -1,0 +1,25 @@
+La computación moderna tiene sus inicios en el año 1939, con la creación de la primera máquina con capacidad de cómputo conocida como máquina enigma y posteriormente máquina de turing. Su creador Alan Turing la diseñó con la finalidad de poder descifrar comunicaciones que se enviaban por medio de radio durante la segunda guerra mundial. Esta fue la primera máquina que podía realizar una gran cantidad de cálculos por segundo lo cual era impresindible para poder realizar su tarea, que de otra forma, podría tomar semanas, o incluso meses.
+
+Un poco más adelante durante el año 1945 se crea formalmente la primera computadora programable, conocida como ENIAC, la cual,consistía en la unión de un gran conjunto de tubos de vacío, la cual, podía generar capacidad de cómputo muchísimo más grande que su antecesor. Esa máquina fue la primera en utilizarse formalmente por el ejército de los estados unidos y fue prácticamente el fundamento de las computadoras modernas.
+
+Años más tarde en busca del desarrollo de computadores mas eficientes, se crea la EDVAC, que, A diferencia de su antecesora, no procesaba los datos en forma decimal sino que utilizaba el formato de numeración binaria. También fue la primera computadora en tener la capacidad de guardar un programa para ser ejecutado posteriormente es decir presenta en la primera característica de memoria no volátil para su tiempo.
+
+Se puede afirmar que todas las computadoras que conocemos hoy en día tienen su base en cualquiera de estas tres máquinas o incluso en la combinación de las 3; por otro lado desde ese momento la computación tuvo una revolución que ha ido escalando grandemente hasta conocer lo que tenemos ahora en mí o qué es la explosión tecnológica.
+
+Para los años 80 y 90 el hecho de que una persona tuviera una computadora podría considerarse como un lujo puesto que el costo de las mismas, era sumamente elevado, y si bien, podría utilizarla para su trabajo o para alguna otra situación. Claro, el hecho de tener una computadora personal se veía favorecido por el hecho de la conexión a internet que fue también uno de los grandes avances que se logran mediante la creacion de arpanet.
+
+Sin embargo, a pesar de que los beneficios del uso de las computadoras, a nivel personal estaba comprobado, hasta ese entonces todavía la mayoría de los procesos dentro de las empresas llámese sean estos contables, de talento humanos e incluso los procesos productivos se controlaban en su totalidad por medio de personas y había pocos o ningún proceso automatizado o controlado por ordenador.
+
+Con el auge en el desarrollo de los microcontroladores y las tarjetas perforadas, se obtuvo una baja en los costos de producción y venta de las computadoras generando que estás fueran mucho más accesibles para las personas y por ende, para las empresas. 
+
+En general esto favoreció el desarrollo de los procesos automatizados, y para ello, se crearon los primeros lenguajes de programación; que permitían crear soluciones para automatizar procesos computacionales como por ejemplo programas que almacenaran información contable, gestores de venta y cobro, e incluso sistemas operativos, que hasta el día de hoy, seguimos utilizando.
+
+Hablando mas cerca en el tiempo, entrando al siglo 21, los sistemas computacionales han logrado ser una parte fundamental del desarrollo de la empresas, permitiendo una mejora en la eficiencia de sus labores, una reducción en los tiempos de respuesta de sus operaciones, y también generar un gran apoyo en los sistemas de información gerencial, que permiten a los gerentes y a los directores tomar decisiones relevantes para la empresa el curso de la compañía.
+
+El uso de los sistemas de información no se limita solamente a los procesos en las empresas las empresas. Los sistemas computacionales están presentes en una gran cantidad de lugares que van desde muchas de las tareas que realizamos a diario, como consultar nuestros correos electronicos, realizar compras en linea, e incluso, ver este video. Otras areas de suma importancia como la gestion de recursos médicos, controles de impuestos,  gestion de plataformas bancarias y de aeropuertos son un claro ejemplo de la importancia de la computación en la actualidad.
+
+Es por esto que se puede decir que la programación es una disciplina que abarca muchas áreas dentro de un mismo proceso, que comprende desde el desarrollo del software hasta la integración con tecnología de hardware e internet de las cosas gestionando complejo módulos que permiten monitorear el estado de cultivos, controles de trafico, signos vitales, y condiciones de ambiente en plantas productivas. 
+
+La programación representa una ventaja competitiva en la actualidad, por que permite desarrollar a las empresas profesionalmente en un gran conjunto de areas y tecnologías que, además de fortalecer su actividad productiva, se proyecta tendran un amplio crecimiento en los proximos años.
+
+
