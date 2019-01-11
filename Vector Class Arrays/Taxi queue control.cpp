@@ -33,7 +33,6 @@ int main(){
 				getline(std::cin,driverName);
 				drivers.push_back(driverName);
 				cout<<"Plate Number: ";
-				cin.ignore();
 				getline(cin,plateNumber);
 				plates.push_back(plateNumber);
 			break;
@@ -43,7 +42,7 @@ int main(){
 				cout<<setw(73)<<setfill('-')<<"\n";
 				for(int i=0; i<taxis.size();i++)
 				{
-					cout<<"|"<<taxis.at(i)<<"\t\t\t|"<<drivers.at(i)<<"\t|"<<plates.at(i)<<"\t\t\t|\n";
+					cout<<"|"<<taxis.at(i)<<"\t\t\t|"<<drivers.at(i)<<"\t\t|"<<plates.at(i)<<"\t\t\t|\n";
 					cout<<setw(73)<<setfill('-')<<"\n";
 					//cout<<setw(90- drivers[i].length())<<setfill('-')<<"\n";	
 				}

@@ -16,7 +16,7 @@ using namespace std::chrono;
 // Main program to test sorting functions 
 int main() 
 { 
-    	int arr[2000]; 
+    int arr[2000]; 
 	/* initialize random seed: */
   	srand (time(NULL));
   	int n = sizeof(arr)/sizeof(arr[0]); 

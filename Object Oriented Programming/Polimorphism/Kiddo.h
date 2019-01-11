@@ -1,10 +1,11 @@
 //Archivo: Person.h
 //Contenido:
-#include "Person.h"
-class Kiddo : public Person{
+#include "Student.h"
+class Kiddo : public Student{
 	int grade;
+	string position;
 	public: Kiddo(){
-	
+		cout<<"Kiddo was excecuted"<<endl;
 	}
 	void greet(){
 		cout<<"Empty message"<<endl;

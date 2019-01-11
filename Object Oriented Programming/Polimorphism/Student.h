@@ -1,11 +1,13 @@
+#include <iostream>
+using namespace std;
+
 class Student{
-	
-	int age;
-	string name;
-	string lastname;
-	
+	protected:
+		int age;
+		string name;
+		string lastname;
 	public: Student(){
-	
+		cout<<"Student was excecuted"<<endl;
 	}
 
 	void greet(){

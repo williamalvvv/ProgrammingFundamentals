@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	int n;
+	int n; //Almacenar el tamaño del arreglo 
 	cout<<"How many items there will be in the array?: ";
 	cin>>n;
 	int vector[n];

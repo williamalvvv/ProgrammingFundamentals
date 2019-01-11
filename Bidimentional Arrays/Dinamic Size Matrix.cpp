@@ -20,6 +20,16 @@ int main(){
 		}
 	}
 	
+	for(int i=0;i<n;i++)
+	{ 
+		for(int j=0;j<m;j++)
+		{
+		
+			cout<<score[i][j]<<endl;
+		}
+	}
+	
+	/*
 	cout<<"\n\n\n"<<endl;
 		
 	for(int i=0;i<n;i++)
@@ -40,4 +50,5 @@ int main(){
 		{
 			cout<<"-";
 		}
+		*/
 }

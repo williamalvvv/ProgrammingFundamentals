@@ -7,5 +7,8 @@ using namespace std;
 int main(){
 	//This line prints a line in terminal
 	cout<<"Hello World, this is my very first C++ programm"<<endl;
+	cout<<""<<endl;
+	system("pause");
 	return 0;
+	cout<<"Hola fin"<<endl;
 }

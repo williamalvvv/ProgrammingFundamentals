@@ -46,7 +46,7 @@ int main(){
 				drivers.push_back(driverName);
 				do{
 					cout<<"Plate Number: ";
-					cin.ignore();
+					//cin.ignore();
 					getline(cin,plateNumber);
 				}while(checkForItemInt(plates, plateNumber));
 				plates.push_back(plateNumber);

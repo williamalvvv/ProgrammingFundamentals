@@ -90,8 +90,8 @@ int main(){
 				drivers.push_back(nAdrivers.at(idToReinsert));
 				plates.push_back(nAplates.at(idToReinsert));
 				nAtaxis.erase(nAtaxis.begin()+idToReinsert);
-				nAdrivers.erase(drivers.begin()+idToReinsert);
-				nAplates.erase(plates.begin()+idToReinsert);
+				nAdrivers.erase(nAdrivers.begin()+idToReinsert);
+				nAplates.erase(nAplates.begin()+idToReinsert);
 				cout<<"Taxi has been already inserted to avialable queue"<<endl;
 			break;
 			case 6:

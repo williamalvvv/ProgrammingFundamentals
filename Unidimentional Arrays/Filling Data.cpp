@@ -9,4 +9,8 @@ int main(){
 		cout<<"Ingrese valor del arreglo en la posición ["<<i<<"]: ";
 		cin>>vector[i];
 	}
+	for(int i=0;i<10;i++)
+	{
+		cout<<"Pos["<<i<<"]: "<<vector[i]<<endl;
+	}
 }

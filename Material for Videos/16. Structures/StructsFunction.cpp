@@ -3,6 +3,7 @@
 #include<conio.h>
 
 using namespace std;
+
 struct automobile 
 {
 	string carType;
@@ -15,8 +16,10 @@ struct automobile
   	string features[3];
   	string names[3]={"Transmision","Traction","MotorSize"};
   	string carChasis;
-};		
+};	
+	
 void SearchData(int searchType, automobile car[], int qty);
+
 int main()
 {
 		int qty;
