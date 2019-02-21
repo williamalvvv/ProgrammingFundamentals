@@ -7,8 +7,8 @@ using namespace std;
 int main(){
 	//This line prints a line in terminal
 	cout<<"Hello World, this is my very first C++ programm"<<endl;
-	cout<<""<<endl;
-	system("pause");
-	return 0;
-	cout<<"Hola fin"<<endl;
+	cout<<""<<endl;//This prints an empty line
+	system("pause");//This calls a system function to pause program excecution till user press a key
+	return 0;//This ends the program
+	cout<<"Hola fin"<<endl;//This line will be ignored since is after return instruction
 }

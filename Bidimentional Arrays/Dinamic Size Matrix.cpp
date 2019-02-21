@@ -25,7 +25,7 @@ int main(){
 		for(int j=0;j<m;j++)
 		{
 		
-			cout<<score[i][j]<<endl;
+			cout<<"Value at postion ["<<i<<"]["<<j<<"]: "<<score[i][j]<<endl;
 		}
 	}
 	

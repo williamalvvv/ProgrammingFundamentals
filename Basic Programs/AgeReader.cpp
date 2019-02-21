@@ -10,8 +10,8 @@ int main(){
 	cout<<"Hello World, this is my very first C++ programm"<<endl<<endl;
 	//In the above line, endl statement insert a new line, it is needed to use output flow operator "<<" for make it work 
 	cout<<"Please enter your age (just numbers): ";
-	cin>>age; //makes age read
-	cout<<endl<<endl;
-	cout<<"Your age is: "<<age<<", thanks for using this program"<<endl;
-	return 0;
+	cin>>age; //makes age read, user has to input value
+	cout<<endl<<endl;//Prints to empty lines
+	cout<<"Your age is: "<<age<<", thanks for using this program"<<endl; //this line prints a message with some variable values in it
+	return 0;//Program end
 }
