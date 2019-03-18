@@ -8,7 +8,7 @@ int main()
 {
 	int arreglo[3]={1,2,3};
 	int* newarreglo;
-	cout<<"Original Values in arreglo were:"<<endl;
+	cout<<"Original Values in arreglo were: "<<endl;
 	for(int i=0;i<3;i++)
 		cout<<arreglo[i]<<endl;
 	newarreglo=addToArray(arreglo, 3, 2);
